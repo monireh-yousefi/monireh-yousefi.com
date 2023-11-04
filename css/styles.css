@@ -11,7 +11,8 @@ header {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 50px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 100vh;
 }
 
 @media (min-width: 768px) {
