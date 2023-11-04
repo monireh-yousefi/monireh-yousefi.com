@@ -1,0 +1,48 @@
+* {
+  font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+header {
+  background-color: rgb(217, 224, 233);
+}
+
+#sidebar {
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  header {
+    position: fixed;
+    height: 100vh;
+  }
+}
+
+#profile_picture {
+  background-color: white;
+}
+
+.profile_name {
+  color: rgb(0, 0, 0);
+}
+
+.social_icon {
+  /* color: rgb(0, 0, 0); */
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* .social_icon:hover {
+  color: rgb(56, 56, 56);
+} */
+
+main {
+  background-color: white;
+}
+
+.content {
+  padding: 5%;
+}
